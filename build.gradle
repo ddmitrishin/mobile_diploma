@@ -15,6 +15,7 @@ def allureVersion = "2.17.3",
     junitVersion = "5.8.2",
     slf4jVersion = "1.7.32",
     ownerVersion = "1.0.4",
+    fakerVersion = "1.0.2",
     commonsIoVersion = "2.6"
 
 allure {
@@ -39,6 +40,7 @@ dependencies {
             "io.rest-assured:rest-assured:$restAssured",
             "org.junit.jupiter:junit-jupiter:$junitVersion",
             "org.slf4j:slf4j-simple:$slf4jVersion",
+            "com.github.javafaker:javafaker:$fakerVersion",
             "org.aeonbits.owner:owner:$ownerVersion",
             "commons-io:commons-io:$commonsIoVersion"
     )
@@ -57,11 +59,5 @@ tasks.withType(Test) {
             events "started", "skipped", "failed", "standard_error", "standard_out"
             exceptionFormat "short"
         }
-    }
-}
-
-task android(type: Test) {
-    useJUnitPlatform {
-        includeTags 'android'
     }
 }

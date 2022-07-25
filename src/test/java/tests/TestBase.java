@@ -9,6 +9,10 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import pages.MainPage;
+import pages.MenuPage;
+import pages.OnboardingPage;
+import pages.SignUpPage;
 
 import java.util.Objects;
 
@@ -18,6 +22,11 @@ import static helpers.Attach.sessionId;
 import static io.qameta.allure.Allure.step;
 
 public class TestBase {
+    OnboardingPage onboardingPage = new OnboardingPage();
+    MainPage mainPage = new MainPage();
+    MenuPage menuPage = new MenuPage();
+    SignUpPage signUpPage = new SignUpPage();
+
     static String deviceHost = System.getProperty("deviceHost", "local");
 
     @BeforeAll
