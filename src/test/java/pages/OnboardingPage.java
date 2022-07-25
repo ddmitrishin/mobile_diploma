@@ -12,32 +12,32 @@ public class OnboardingPage {
     SelenideElement thirdPageButton = $(AppiumBy.xpath("//android.widget.LinearLayout[3]"));
     SelenideElement fourthPageButton = $(AppiumBy.xpath("//android.widget.LinearLayout[4]"));
 
-    public void checkFirstPageContent(){
+    public void checkFirstPageContent() {
         pageContent.shouldHave(Condition.text("The Free Encyclopedia\n" +
                 "…in over 300 languages"));
     }
 
-    public void goToSecondPage(){
+    public void goToSecondPage() {
         secondPageButton.click();
     }
 
-    public void checkSecondPageContent(){
+    public void checkSecondPageContent() {
         pageContent.shouldHave(Condition.text("New ways to explore"));
     }
 
-    public void goToThirdPage(){
+    public void goToThirdPage() {
         thirdPageButton.click();
     }
 
-    public void checkThirdPageContent(){
+    public void checkThirdPageContent() {
         pageContent.shouldHave(Condition.text("Reading lists with sync"));
     }
 
-    public void goToFourthPage(){
+    public void goToFourthPage() {
         fourthPageButton.click();
     }
 
-    public void checkFourthPageContent(){
+    public void checkFourthPageContent() {
         pageContent.shouldHave(Condition.text("Send anonymous data"));
     }
 }

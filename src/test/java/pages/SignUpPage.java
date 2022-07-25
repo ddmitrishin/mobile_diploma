@@ -19,27 +19,27 @@ public class SignUpPage {
     SelenideElement continueWithoutEmailButton = $(AppiumBy.id("android:id/button1"));
     SelenideElement contentCaptcha = $(AppiumBy.id("org.wikipedia.alpha:id/request_account_text"));
 
-    public void fillNameInputField(){
+    public void fillNameInputField() {
         nameInputField.sendKeys(name);
     }
 
-    public void fillPasswordInputField(){
+    public void fillPasswordInputField() {
         passwordInputField.sendKeys(password);
     }
 
-    public void confirmPassword(){
+    public void confirmPassword() {
         confirmPasswordInputField.sendKeys(password);
     }
 
-    public void pressNextButton(){
+    public void pressNextButton() {
         submitButton.click();
     }
 
-    public void pressContinueWithoutEmailButton(){
+    public void pressContinueWithoutEmailButton() {
         continueWithoutEmailButton.click();
     }
 
-    public void checkCaptchaContent(){
+    public void checkCaptchaContent() {
         contentCaptcha.shouldHave(Condition.text("Can't see the image? Request an account"));
     }
 }
