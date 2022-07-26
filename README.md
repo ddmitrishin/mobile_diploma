@@ -138,7 +138,7 @@ gradle clean test -DdeviceHost=browserstack
 
 > A video is attached to each test in the report. One of these videos is shown below. In this test case we checked sign up
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/6bbf5a47f161a9f03eead5ef5fef16323ae502642.gif">
+  <img title="Video" src="images/gif/bbf5a47f161a9f03eead5ef5fef16323ae502642.gif">
 </p>
 
 <a target="_blank" href="https://t.me/YuriyMqa">t.me/dmitrishin13</a>
