@@ -134,7 +134,7 @@ gradle clean test -DdeviceHost=browserstack
 <img width="30%"  title="Telegram Notifications" src="images/screenshots/telegramBot.jpg">
 </p>
 
-## <img width="4%" title="Selenoid" src="images/logo/Selenoid.svg"> An example of running a test in Selenoid
+## :film_projector: An example of running a test
 
 > A video is attached to each test in the report. One of these videos is shown below. In this test case we checked sign up
 <p align="center">
