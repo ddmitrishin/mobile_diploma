@@ -95,6 +95,10 @@ gradle clean test -DdeviceHost=browserstack
   <img src="images/screenshots/JenkinsMain.jpg">
 </p>
 
+## 👽 Отчет BrowserStack
+We can see the details of passing the tests in your BrowserStack personal account. This often provides useful information about how our application works.
+<img title="BrowserStack dashboard" src="images/browserstack.jpg">
+
 ## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Test results report in Allure Report
 
 ### :pushpin: Main page of the Allure report
