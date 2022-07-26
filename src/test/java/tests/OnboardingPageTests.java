@@ -6,11 +6,12 @@ import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 
-@Feature("Onboarding Page")
+
 public class OnboardingPageTests extends TestBase {
 
     @Test
     @DisplayName("Check Onboarding content")
+    @Feature("Onboarding Page")
     void checkOnboardingContentTest() {
         step("Verified first page", () ->
                 onboardingPage.checkFirstPageContent());

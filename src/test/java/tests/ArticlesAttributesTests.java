@@ -6,11 +6,12 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.back;
 
-@Feature("Articles Attributes")
+
 public class ArticlesAttributesTests extends TestBase {
 
     @Test
     @DisplayName("Compare date with actual day")
+    @Feature("Articles Attributes")
     void selectedArticleTodayTest() {
         back();
         mainPage.compareDayWithAcualDay();

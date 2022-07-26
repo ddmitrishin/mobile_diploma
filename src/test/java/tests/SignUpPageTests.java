@@ -7,11 +7,12 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selenide.back;
 import static io.qameta.allure.Allure.step;
 
-@Feature("Sign Up Page")
+
 public class SignUpPageTests extends TestBase {
 
     @Test
     @DisplayName("Sign up")
+    @Feature("Sign Up Page")
     void signUpTest() {
         back();
         step("Open 'Menu'", () -> {

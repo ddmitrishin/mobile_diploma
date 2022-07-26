@@ -10,11 +10,12 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.back;
 import static io.qameta.allure.Allure.step;
 
-@Feature("Search")
+
 public class SearchTests extends TestBase {
 
     @Test
     @DisplayName("Check Search input")
+    @Feature("Search")
     void searchTest() {
         back();
         step("Search BrowserStack in Wikipedia", () -> {
@@ -26,6 +27,7 @@ public class SearchTests extends TestBase {
 
     @Test
     @DisplayName("Check content")
+    @Feature("Search")
     void openContentTest() {
         back();
         step("Search Beatles in Wikipedia", () -> {
