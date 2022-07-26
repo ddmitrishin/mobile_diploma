@@ -92,7 +92,7 @@ gradle clean test -DdeviceHost=browserstack
 ## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Jenkins Build Main Page
 
 <p align="center">
-  <img src="images/screenshots/JenkinsMainPAge.jpg">
+  <img src="images/screenshots/JenkinsMain.jpg">
 </p>
 
 ## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Test results report in Allure Report
@@ -100,22 +100,15 @@ gradle clean test -DdeviceHost=browserstack
 ### :pushpin: Main page of the Allure report
 
 <p align="center">
-<img title="Allure Overview" src="images/screenshots/mainDachboardAR.jpg">
+<img title="Allure Overview" src="images/screenshots/mainAllureR.jpg">
 </p>
 
 ### :pushpin: Page with tests
 
 
 <p align="center">
-<img title="Allure Behaviors" src="images/screenshots/pageWithTests.jpg">
+<img title="Allure Behaviors" src="images/screenshots/testCasesAR.jpg">
 </p>
-
-### :pushpin: Window with charts
-
-<p align="center">
-<img width="30%"  title="Allure Overview Dashboard" src="images/screenshots/chartsAR.jpg">
-</p>
-
 
 
 ## <img width="4%" title="Allure TestOps" src="images/logo/alluretestops.svg"> Integration with Allure TestOps
@@ -123,16 +116,15 @@ gradle clean test -DdeviceHost=browserstack
 ### :pushpin: Test cases with launch history
 
 <p align="center">
-<img title="Allure Overview" src="images/screenshots/ATestOpstestcase.jpg">
+<img title="Allure Overview" src="images/screenshots/testCasesTO.jpg">
 </p>
 
 ### :pushpin: Dashboard
 
 
 <p align="center">
-<img title="Allure Behaviors" src="images/screenshots/ATestOpsDash.jpg">
+<img title="Allure Behaviors" src="images/screenshots/dashBoardTO.jpg">
 </p>
-
 
 
 ## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Telegram notifications using a bot
@@ -144,9 +136,9 @@ gradle clean test -DdeviceHost=browserstack
 
 ## <img width="4%" title="Selenoid" src="images/logo/Selenoid.svg"> An example of running a test in Selenoid
 
-> A video is attached to each test in the report. One of these videos is shown below. Test case for checking the sending of an application to the company
+> A video is attached to each test in the report. One of these videos is shown below. In this test case we checked sign up
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/657f38371d02e78d321704cc37755f8e.gif">
+  <img title="Selenoid Video" src="images/gif/6bbf5a47f161a9f03eead5ef5fef16323ae502642.gif">
 </p>
 
 <a target="_blank" href="https://t.me/YuriyMqa">t.me/dmitrishin13</a>
