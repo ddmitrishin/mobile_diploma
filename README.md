@@ -16,7 +16,7 @@
 
 ➠ [Telegram notifications using a bot](#-telegram-notifications-using-a-bot)
 
-➠ [An example of running a test in Selenoid](#-an-example-of-running-a-test-in-selenoid)
+➠ [Video example of running a test](#-video-example-of-running-a-test)
 ## <a name="globe_with_meridians-covered-functionality"></a>:globe_with_meridians: Covered functionality
 
 ### UI
@@ -140,7 +140,7 @@ We can see the details of passing the tests in your BrowserStack personal accoun
 <img width="30%"  title="Telegram Notifications" src="images/screenshots/telegramBot.jpg">
 </p>
 
-## :film_projector: An example of running a test
+## :film_projector: Video example of running a test
 
 > A video is attached to each test in the report. One of these videos is shown below. In this test case we checked sign up
 <p align="center">
