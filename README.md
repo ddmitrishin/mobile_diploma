@@ -16,7 +16,8 @@
 
 ➠ [Telegram notifications using a bot](#-telegram-notifications-using-a-bot)
 
-➠ [Video example of running a test](#-video-example-of-running-a-test)
+➠ [Video example of running a test](#film_projector-video-example-of-running-a-test)
+
 ## <a name="globe_with_meridians-covered-functionality"></a>:globe_with_meridians: Covered functionality
 
 ### UI
@@ -144,7 +145,7 @@ We can see the details of passing the tests in your BrowserStack personal accoun
 
 > A video is attached to each test in the report. One of these videos is shown below. In this test case we checked sign up
 <p align="center">
-  <img title="Video" src="images/gif/bbf5a47f161a9f03eead5ef5fef16323ae502642.gif">
+  <img title="Video example of running a test" src="images/gif/bbf5a47f161a9f03eead5ef5fef16323ae502642.gif">
 </p>
 
 <a target="_blank" href="https://t.me/YuriyMqa">t.me/dmitrishin13</a>
