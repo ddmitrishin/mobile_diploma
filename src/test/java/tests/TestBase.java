@@ -2,6 +2,7 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
+import com.github.javafaker.Faker;
 import drivers.BrowserstackMobileDriver;
 import drivers.LocalMobileDriver;
 import helpers.Attach;
@@ -22,6 +23,10 @@ import static helpers.Attach.sessionId;
 import static io.qameta.allure.Allure.step;
 
 public class TestBase {
+    Faker faker = new Faker();
+    String name = faker.name().fullName();
+    String password = faker.number().digits(9);
+
     OnboardingPage onboardingPage = new OnboardingPage();
     MainPage mainPage = new MainPage();
     MenuPage menuPage = new MenuPage();

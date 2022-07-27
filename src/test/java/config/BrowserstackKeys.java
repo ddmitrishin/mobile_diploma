@@ -9,7 +9,7 @@ import org.aeonbits.owner.Config;
 })
 public interface BrowserstackKeys extends Config {
     String username();
-    String access_key();
+    String accessKey();
     String project();
     String build();
     String name();

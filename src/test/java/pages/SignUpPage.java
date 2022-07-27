@@ -2,16 +2,11 @@ package pages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
-import com.github.javafaker.Faker;
 import io.appium.java_client.AppiumBy;
 
 import static com.codeborne.selenide.Selenide.$;
 
 public class SignUpPage {
-    Faker faker = new Faker();
-    String name = faker.name().fullName();
-    String password = faker.number().digits(9);
-
     SelenideElement nameInputField = $(AppiumBy.xpath("//android.widget.EditText[@text='Username']"));
     SelenideElement passwordInputField = $(AppiumBy.xpath("//android.widget.EditText[@text='Password']"));
     SelenideElement confirmPasswordInputField = $(AppiumBy.xpath("//android.widget.EditText[@text='Repeat password']"));
@@ -19,15 +14,15 @@ public class SignUpPage {
     SelenideElement continueWithoutEmailButton = $(AppiumBy.id("android:id/button1"));
     SelenideElement contentCaptcha = $(AppiumBy.id("org.wikipedia.alpha:id/request_account_text"));
 
-    public void fillNameInputField() {
+    public void fillNameInputField(String name) {
         nameInputField.sendKeys(name);
     }
 
-    public void fillPasswordInputField() {
+    public void fillPasswordInputField(String password) {
         passwordInputField.sendKeys(password);
     }
 
-    public void confirmPassword() {
+    public void confirmPassword(String password) {
         confirmPasswordInputField.sendKeys(password);
     }
 

@@ -15,15 +15,14 @@ public class SignUpPageTests extends TestBase {
     @Feature("Sign Up Page")
     void signUpTest() {
         back();
-        step("Open 'Menu'", () -> {
-            mainPage.openMenu();
-        });
+        step("Open 'Menu'", () ->
+                mainPage.openMenu());
         step("Press on 'Join Wikipedia' button", () ->
                 menuPage.goToLoginPage());
         step("Fill fields", () -> {
-            signUpPage.fillNameInputField();
-            signUpPage.fillPasswordInputField();
-            signUpPage.confirmPassword();
+            signUpPage.fillNameInputField(name);
+            signUpPage.fillPasswordInputField(password);
+            signUpPage.confirmPassword(password);
         });
         step("Press 'Next' button", () ->
                 signUpPage.pressNextButton());

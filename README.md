@@ -1,4 +1,4 @@
-# Test automation project android-application "Wikipedia"
+# "Wikipedia" Android Application Test Automation
 
 ## :page_with_curl:         Content
 
